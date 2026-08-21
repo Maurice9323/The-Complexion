@@ -1,25 +1,47 @@
 {
-  "name": "The Wheel",
-  "short_name": "The Wheel",
-  "description": "The Wheel",
-  "start_url": "/the-wheel/",
-  "scope": "/The Wheel/",
+  "name": "The Complexion — Face Protocol",
+  "short_name": "The Complexion",
+  "description": "PIH treatment protocol, hairline barrier system, and daily routine for clearing acne marks and preventing new breakouts.",
+  "start_url": "./",
+  "scope": "./",
+  "id": "./",
   "display": "standalone",
-  "background_color": "#05050e",
-  "theme_color": "#05050e",
-  "orientation": "portrait-primary",
+  "orientation": "portrait",
+  "background_color": "#150C03",
+  "theme_color": "#D4A017",
+  "categories": ["health", "lifestyle"],
   "icons": [
     {
-      "src": "/the-wheel/icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "/the-wheel/icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Morning Routine",
+      "short_name": "AM",
+      "description": "Five morning steps",
+      "url": "./#am"
+    },
+    {
+      "name": "Evening Routine",
+      "short_name": "PM",
+      "description": "Four evening steps",
+      "url": "./#pm"
+    },
+    {
+      "name": "Shopping List",
+      "short_name": "Shop",
+      "description": "All nine products",
+      "url": "./#shop"
     }
   ]
 }
